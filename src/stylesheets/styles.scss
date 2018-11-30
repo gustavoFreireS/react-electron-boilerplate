@@ -32,9 +32,10 @@ body{
     width: 22vw;
     height: 28.25vh;
     transition: 0.20s ease-in-out;
-    &:hover{
-      transform: scale(1.2);
-    }
+    border-radius: 10px;
+  }
+  .scaled{
+    transform: scale(1.2);
   }
   &__blue{
     background-color: cornflowerblue;
